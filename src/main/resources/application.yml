@@ -1,0 +1,12 @@
+server:
+  port: 9010
+spring:
+  application:
+    name: rabbit_mq
+  rabbitmq:
+    host: 192.168.122.129
+    port: 5672
+    virtual-host: test1
+    username: zhaolei
+    password: 123456
+ 
